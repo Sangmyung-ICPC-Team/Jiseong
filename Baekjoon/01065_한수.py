@@ -8,4 +8,5 @@ for i in range(1, N+1):
         d = list(map(int, str(i)))
         if d[0] - d[1] == d[1] - d[2]:
             cnt += 1
+            
 print(cnt)
