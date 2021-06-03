@@ -6,7 +6,6 @@ S = [list(map(int, input().split())) for _ in range(N)]
 members = [i for i in range(N)]
 case = []
 
-#경우의수 조합으로 가능한 팀을 만듬
 for team in list(combinations(members, N//2)):
     case.append(team)
 #예시 입력 1 의 경우 경우의 수 -> [(0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3)]
