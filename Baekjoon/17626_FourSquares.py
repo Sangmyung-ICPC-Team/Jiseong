@@ -1,5 +1,5 @@
 # Silver 5
-
+# 어려워...
 import sys
 input = sys.stdin.readline
 
